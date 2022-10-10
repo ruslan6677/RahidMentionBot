@@ -5,43 +5,43 @@
   "env": {
     "BOT_TOKEN": {
       "description": "bot token girin.",
-      "value": "57898Ta0ysiY"
+      "value": "5796330315:AAFgAbSg1plscQJeVYPXF0YJxn1YzxG0MPw"
     },
     "API_ID": {
       "description": "@otomytelegrambot dan api hash api id alınız.",
-      "value": "8173444"
+      "value": "12494248"
     },
     "API_HASH": {
       "description": "@otomytelegrambot dan api hash api id alınız.",
-      "value": "8ce53801c1b49cd4d2fa108eb151b255"
+      "value": "381a322fbd4a36c01e5eace5dfb5876f"
     },
     "BOT_NAME": {
       "description": "botun adını girin.",
-      "value": "bebe"
+      "value": "MEMORİES TAGGER"
     },
     "BOT_USERNAME": {
       "description": "botun adresini girin.",
-      "value": "bebe"
+      "value": "MemoriesTaggerBot"
     },
     "BOT_ID": {
       "description": "botun id'sini girin.",
-      "value": "5789800986"
+      "value": "5796330315"
     },
     "SUDO_USERS": {
       "description": "botun sahibini girin.",
-      "value": "1280040987"
+      "value": "5420764355"
     },
     "SUPPORT_CHAT": {
       "description": "botun destek grubunu girin.",
-      "value": "bebe"
+      "value": "taggersupport"
     },
     "OWNER_ID": {
       "description": "botun sahibinin id'sini girin.",
-      "value": "1980683964"
+      "value": "5420764355"
     },
     "OWNER_USERNAME": {
       "description": "botun sahibinin adresini girin.",
-      "value": "1980683964"
+      "value": "Benimkillerr"
     }
   },
   "buildpacks": [{
