@@ -789,7 +789,7 @@ async def handler(event):
     await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/DegGixM \n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
 		     buttons=(
 	             [Button.url('Fatoş','https://t.me/Cafarva_064'),
-	             Button.url('Fatoş','https://t.me/Cafarva_064'),
+	             Button.url('Fatoş','https://t.me/Cafarva_064')],
                     ),
                     link_preview=False)
 
