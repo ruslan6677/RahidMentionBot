@@ -91,13 +91,13 @@ async def start(event):
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
 	             [Button.url('Qrup💬', 'https://t.me/Team_Manyak_Club'),
-                      Button.url('MEMORİES TAGGER BOT 👨‍💻', 'http://t.me/MemoriesTaggerBot')],
+                      Button.url('LUCİFE BOTS 👨‍💻', 'http://t.me/LuciferProje')],
                     ),
                     link_preview=False)
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"** [MEMORİES TAGGER BOT](http://t.me/MemoriesTaggerBot)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
+    return await client.send_message(event.chat_id, f"** [LUCİFER BOTS](http://t.me/LuciferProje)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
                      [Button.url('💡Bota Keç','https://t.me/MemoriesTaggerBot?start=start')],
 	             [Button.url('LUCİFER BOTS 👨‍💻','https://t.me/LuciferProje'),
 		      Button.url('Qrup💬', 'https://t.me/Team_Manyak_Club')],
@@ -786,7 +786,7 @@ async def handler(event):
     # Kimsə "Salam" və başqa bir şey deyəndə cavab verin
     if str(event.sender_id) not in SUDO_USERS:
         return await event.reply("__Sən mənə sahib deyilsən!__")
-    await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/DegGixM \n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
+    await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/Cafarva_064 \n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
 		     buttons=(
 	             [Button.url('Fatoş','https://t.me/Cafarva_064'),
 	             Button.url('Fatoş','https://t.me/Cafarva_064')],
