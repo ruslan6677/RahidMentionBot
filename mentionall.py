@@ -49,8 +49,8 @@ tekli_calisan = []
 #async def start(event):
  # await event.reply("sxya kece bilersen ala",
  #                   buttons=(
-#	              [Button.url('sexside start ed', 'https://t.me/UstaTagbot'), 
-  #                    Button.url('🤖 USTA Bots', 'https://t.me/ustabots')],
+#	              [Button.url('sexside start ed', 'https://t.me/MemoriesTaggerBot'), 
+  #                    Button.url('🤖 Lucifer Bots', 'https://t.me/LuciferProje')],
   #                   ),
   #                  link_preview=False
  #                  )
@@ -60,10 +60,10 @@ tekli_calisan = []
 #@client.on(events.NewMessage(pattern="^/start$") & filters.private)
 #@client.on(events.callbackquery.CallbackQuery(data="start"))
 #async def start(event):
- # await event.reply("**🤖Salam...💭,**\nMənim Adım [USTA Tag Bot](http://t.me/UstaTagbot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Əmrlər üçün /help yazıb məndən kömək ala bilərsiniz.**",
+ # await event.reply("**🤖Salam...💭,**\nMənim Adım [Memories Tag Bot](http://t.me/MemoriesTaggerBot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Əmrlər üçün /help yazıb məndən kömək ala bilərsiniz.**",
           #          buttons=(
          #      
-	#	      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/UstaTagbot?startgroup=a')],
+	#	      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/MemoriesTaggerBot?starstartgrouptgrstarstartgrouptgroupoup=a')],
 	#	      [Button.inline(f"komek", data="help")], 
 	#	      #[Button.inline("✍ Əmrlər", data="help")],    
           #            #[Button.url('Qurup🛠', 'https://t.me/kohne_mekan')],
@@ -83,24 +83,24 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**🤖Salam...💭,**\nMənim Adım [𓆩𓄂𝙰𝚂𝚀🇦🇿 𝑇𝑎𝑔𝑔𝑒𝑟 𝘉𝘰𝘵](http://t.me/UstaTagbot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
-                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/UstaTagbot?startgroup=a')],
+     await event.reply(f"**🤖Salam...💭,**\nMənim Adım [MEMORİES TAGGER BOT](http://t.me/MemoriesTaggerBot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
+                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/MemoriesTaggerBot?startgroup=a')],
 		   # [Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
 	            # [Button.url('Qurup🛠', 'https://t.me/Bizim_Paytaxt'),
                     #  Button.url('💡 USTA Bots', 'https://t.me/ustabots')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
-	             [Button.url('Qrup💬', 'https://t.me/Bizim_Paytaxt'),
-                      Button.url('𝐔𝐒𝐓𝐀 𝐁𝐎𝐓𝐋𝐀𝐑 👨‍💻', 'https://t.me/ustabots')],
+	             [Button.url('Qrup💬', 'https://t.me/Team_Manyak_Club'),
+                      Button.url('MEMORİES TAGGER BOT 👨‍💻', 'http://t.me/MemoriesTaggerBot')],
                     ),
                     link_preview=False)
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"** [𓆩𓄂𝙰𝚂𝚀🇦🇿 𝑇𝑎𝑔𝑔𝑒𝑟 𝘉𝘰𝘵](http://t.me/UstaTagbot)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
-                     [Button.url('💡Bota Keç','https://t.me/UstaTagbot?start=start')],
-	             [Button.url('𝐔𝐒𝐓𝐀 𝐁𝐎𝐓𝐋𝐀𝐑 👨‍💻','https://t.me/ustabots'),
-		      Button.url('Qrup💬', 'https://t.me/Bizim_Paytaxt')],
+    return await client.send_message(event.chat_id, f"** [MEMORİES TAGGER BOT](http://t.me/MemoriesTaggerBot)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
+                     [Button.url('💡Bota Keç','https://t.me/MemoriesTaggerBot?start=start')],
+	             [Button.url('LUCİFER BOTS 👨‍💻','https://t.me/LuciferProje'),
+		      Button.url('Qrup💬', 'https://t.me/Team_Manyak_Club')],
                     ),
                     link_preview=False)
 #https://t.me/Ustamusicbot?start=help
@@ -111,36 +111,36 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**🤖Salam...💭,**\nMənim Adım [𓆩𓄂𝙰𝚂𝚀🇦🇿 𝑇𝑎𝑔𝑔𝑒𝑟 𝘉𝘰𝘵](http://t.me/UstaTagbot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
-                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/UstaTagbot?startgroup=a')],
+     await event.edit(f"**🤖Salam...💭,**\nMənim Adım [MEMORİES TAGGER BOT](http://t.me/MemoriesTaggerBot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
+                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/MemoriesTaggerBot?startgroup=a')],
 		    # [Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
 	             #[Button.url('Qurup🛠', 'https://t.me/Bizim_Paytaxt'),
                       #Button.url('🤖 USTA Bots', 'https://t.me/ustabots')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
-	             [Button.url('Qrup💬', 'https://t.me/Bizim_Paytaxt'),
-                      Button.url('𝐔𝐒𝐓𝐀 𝐁𝐎𝐓𝐋𝐀𝐑 👨‍💻', 'https://t.me/ustabots')],
+	             [Button.url('Qrup💬', 'https://t.me/Team_Manyak_Club'),
+                      Button.url('LUCİFER BOTS 👨‍💻', 'https://t.me/LuciferProje')],
                     ),
                     link_preview=False)
 
 # gece kusu
 @client.on(events.callbackquery.CallbackQuery(data="help"))
 async def handler(event):	
-    await event.edit(f"** [𓆩𓄂𝙰𝚂𝚀🇦🇿 𝑇𝑎𝑔𝑔𝑒𝑟 𝘉𝘰𝘵](http://t.me/UstaTagbot)-un Kömək '📚 Əmrlər' Bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**🤖➪ /tag <səbəb> - 5-li Tag Atışları.**\n**🤖➪ /etag <səbəb> - Emoji ilə etiketlər.**\n**🤖➪ /stag <səbəb> - Söz'lü Tag etiketlər.**\n**🤖➪ /tektag <səbəb> - Üzvləri Tək-Tək etiketlər.**\n**🤖➪ /usta <səbəb> - usta Tag Bot'una aid Tag etiketlər.**\n**🤖➪ /admins <səbəb> - İdarəçilər Tək-Tək etiketlər.**\n**🤖➪ /cancel - Tag Ələməyi Dayandır.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
+    await event.edit(f"** [MEMORİES TAGGER BOT](http://t.me/MemoriesTaggerBot)-un Kömək '📚 Əmrlər' Bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**🤖➪ /tag <səbəb> - 5-li Tag Atışları.**\n**🤖➪ /etag <səbəb> - Emoji ilə etiketlər.**\n**🤖➪ /stag <səbəb> - Söz'lü Tag etiketlər.**\n**🤖➪ /tektag <səbəb> - Üzvləri Tək-Tək etiketlər.**\n**🤖➪ /usta <səbəb> - usta Tag Bot'una aid Tag etiketlər.**\n**🤖➪ /admins <səbəb> - İdarəçilər Tək-Tək etiketlər.**\n**🤖➪ /cancel - Tag Ələməyi Dayandır.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
 	            # [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/UstaTagbot?startgroup=a')],
 		     #[Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
-	             [Button.url('Qrup💬', 'https://t.me/Bizim_Paytaxt'),
-                      Button.url('𝐔𝐒𝐓𝐀 𝐁𝐎𝐓𝐋𝐀𝐑 👨‍💻', 'https://t.me/ustabots')],
+	             [Button.url('Qrup💬', 'https://t.me/Team_Manyak_Club'),
+                      Button.url('LUCİFER BOTS 👨‍💻', 'https://t.me/LuciferProje')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**📌 [𓆩𓄂𝙰𝚂𝚀🇦🇿 𝑇𝑎𝑔𝑔𝑒𝑟 𝘉𝘰𝘵](http://t.me/UstaTagbot)-un & 𝐔𝐒𝐓𝐀 𝐁𝐎𝐓𝐋𝐀𝐑 👨‍ Təkliflər üçün sahib'lə əlaqə saxlaya bilərsiniz...**", buttons=(
-		     [Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
-	             [Button.url('Qrup💬', 'https://t.me/Bizim_Paytaxt'),
-                      Button.url('𝐔𝐒𝐓𝐀 𝐁𝐎𝐓𝐋𝐀𝐑 👨‍💻', 'https://t.me/ustabots')],
+    await event.edit(f"**📌 [MEMORİES TAGGER BOT](http://t.me/MemoriesTaggerBot)-un & LUCİFER BOTS 👨‍ Təkliflər üçün sahib'lə əlaqə saxlaya bilərsiniz...**", buttons=(
+		     [Button.url('🎉 Sahib', 'https://t.me/Cafarva_064')],
+	             [Button.url('Qrup💬', 'https://t.me/Team_Manyak_Club'),
+                      Button.url('LUCİFER BOTS 👨‍💻', 'https://t.me/LuciferProje')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
@@ -152,14 +152,14 @@ async def handler(event):
 #@client.on(events.callbackquery.CallbackQuery(data="help"))	
 #@client.on(events.NewMessage(pattern="^/help$"))
 #async def help(event):
-#  helptext = "** [USTA Tag Bot](http://t.me/UstaTagbot)-un Kömək Əmrlər Bunlardır...💭,⤵**\n\n**🤖➪ /tag <səbəb> - 5-li Tag Atışları.**\n**🤖➪ /etag <səbəb> - Emoji ilə etiketlər.**\n**🤖➪ /stag <səbəb> - Söz'lü Tag etiketlər.**\n**🤖➪ /tektag <səbəb> - Üzvləri Tək-Tək etiketlər.**\n**🤖➪ /usta <səbəb> - usta Tag Bot'una aid Tag etiketlər.**\n**🤖➪ /admins <səbəb> - İdarəçilər Tək-Tək etiketlər.**\n**🤖➪ /cancel - Tag Ələməyi Dayandır.**\n**🤖➪ /start - Botu işə salır**\n**🤖➪ /reklam - Reklam və ya əməkdaşlıq üçün bu əmrdən istifadə edin.**"
+#  helptext = "** [Memories Tagger Bot](http://t.me/MemoriesTaggerBot)-un Kömək Əmrlər Bunlardır...💭,⤵**\n\n**🤖➪ /tag <səbəb> - 5-li Tag Atışları.**\n**🤖➪ /etag <səbəb> - Emoji ilə etiketlər.**\n**🤖➪ /stag <səbəb> - Söz'lü Tag etiketlər.**\n**🤖➪ /tektag <səbəb> - Üzvləri Tək-Tək etiketlər.**\n**🤖➪ /usta <səbəb> - usta Tag Bot'una aid Tag etiketlər.**\n**🤖➪ /admins <səbəb> - İdarəçilər Tək-Tək etiketlər.**\n**🤖➪ /cancel - Tag Ələməyi Dayandır.**\n**🤖➪ /start - Botu işə salır**\n**🤖➪ /reklam - Reklam və ya əməkdaşlıq üçün bu əmrdən istifadə edin.**"
 #  await event.reply(helptext,
 #                    buttons=(
 #                      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/UstaTagbot?startgroup=a')],
 #                      #[Button.url('Qurup🛠', 'https://t.me/kohne_mekan')],
 #                     # [Button.url('Kanal📢', 'https://t.me/kohne_mekan_kanal')],
-#		      [Button.url('🎉 Sahib', 'https://t.me/UstaNakhid'),
-#                       Button.url('🤖 USTA Bots', 'https://t.me/ustabots')],
+#		      [Button.url('🎉 Sahib', 'https://t.me/Cafarva_064'),
+#                       Button.url('🤖 LUCİFER BOTS ', 'https://t.me/LuciferProje')],
 #		      [Button.inline("◀️ Geri", data="start")],
 #                     # [Button.url('➕ K.M Music Bot ➕','http://t.me/KohneMekanMusicBot?startgroup=a')],
 #                    #  [Button.url('➕ K.M Nəzarət Bot ➕','http://t.me/KohneMekanNezaretBot?startgroup=a')],
@@ -788,8 +788,8 @@ async def handler(event):
         return await event.reply("__Sən mənə sahib deyilsən!__")
     await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/DegGixM \n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
 		     buttons=(
-	             [Button.url('DegGixM','https://t.me/DegGixM'),
-	             Button.url('Ali','https://t.me/MUCVE_M')],
+	             [Button.url('Fatoş','https://t.me/Cafarva_064'),
+	             Button.url('Fatoş','https://t.me/Cafarva_064'),
                     ),
                     link_preview=False)
 
@@ -802,5 +802,5 @@ async def handler(event):
     
 
 
-print(">> Bot işləyir narahat olmayın. @MUCVE_M Məlumat almaq üçün <<")
+print(">> Bot işləyir narahat olmayın. @Cafarva_064 Məlumat almaq üçün <<")
 client.run_until_disconnected()
