@@ -21,11 +21,11 @@ async def hg(bot: Client, msg: Message):
                 f'''`Salam` {msg.from_user.mention} `Məni` {msg.chat.title} `Qrupa əlavə etdiyiniz üçün təşəkkürlər⚡️` \n\n **🤖Qruplardakı userləri tag Edmə üçün Yaradıldım.\n🤖Kömək üçün /start yazmaq kifayətdir.✨**''')
 
         elif str(new_user.id) == str(Config.OWNER_ID):
-            await msg.reply('🤖 [𓆩𓄂𝙰𝚂𝚀🇦🇿 𝑇𝑎𝑔𝑔𝑒𝑟 𝘉𝘰𝘵](https://t.me/UstaTagbot)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
+            await msg.reply('🤖 [MEMORİES TAGGER BOT](https://t.me/MemoriesTaggerBot)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
 
             buttons = [[InlineKeyboardButton("⚡️Qrupa Əlavə ed⚡️",url="http://t.me/UstaDC_bot?startgroup=a"),
-                    InlineKeyboardButton("💻 Sahib", url="https://t.me/UstaNakhid"),
-                    InlineKeyboardButton("💡Usta Bots", url="https://t.me/ustabots")]]
+                    InlineKeyboardButton("💻 Sahib", url="https://t.me/Cafarva_064"),
+                    InlineKeyboardButton("💡LUCİFER BOTS", url="https://t.me/LuciferProje")]]
 
 
 
