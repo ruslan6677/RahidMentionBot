@@ -90,17 +90,17 @@ async def start(event):
                     #  Button.url('💡 USTA Bots', 'https://t.me/ustabots')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
-	             [Button.url('Kanalım ❤️', 'https://t.me/qruzdaa'),
-                      Button.url('🌐 Digər Botlar', 'http://t.me/Rahid_44')],
+	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
+                      Button.url('❤️ Kanalım', 'http://t.me/qruzdaa')],
                     ),
                     link_preview=False)
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"** [Rahid Tag Bot](http://t.me/Rahid_Tag_Bot)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
+    return await client.send_message(event.chat_id, f"** [@Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)'un Əmrlər üçün?.Bot'a daxil olub**", buttons=(
                      [Button.url('💡 Bota Keç','https://t.me/Rahid_Tag_Bot?start=start')],
-	             [Button.url('Digər Botlar 🌐','https://t.me/Rahid_44'),
-		      Button.url('Kanalım ❤️','https://t.me/qruzdaa')],
+	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
+		      Button.url('❤️ Kanalım','https://t.me/qruzdaa')],
                     ),
                     link_preview=False)
 #https://t.me/Ustamusicbot?start=help
@@ -118,19 +118,19 @@ async def handler(event):
                       #Button.url('🤖 USTA Bots', 'https://t.me/ustabots')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
-	             [Button.url('Kanalım ❤️', 'https://t.me/qruzdaa'),
-                      Button.url('🌐 Digər Botlar', 'https://t.me/Rahid_44')],
+	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
+                      Button.url('❤️ Kanalım', 'https://t.me/Rahid_44')],
                     ),
                     link_preview=False)
 
 # gece kusu
 @client.on(events.callbackquery.CallbackQuery(data="help"))
 async def handler(event):	
-    await event.edit(f"** [@Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)-un '📚 Əmrlər' bölməsi ⤵**\n\n•━━━━━━━━•••━━━━━━━━•\n**🤖➪ /tag 5-li tağ edər**\n**🤖➪ /etag - Emoji ilə tağ edər**\n**🤖➪ /stag - Sözlər ilə tağ edər**\n**🤖➪ /tektag - Tək-Tək tağ edər**\n**🤖➪ /usta - Usta tağ botuna aid tağ edər**\n**🤖➪ /admins - İdarəçiləri Tək-Tək tağ edər**\n**🤖➪ /cancel - Tağı dayandır.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
+    await event.edit(f"** [@Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)-un '📚 Əmrlər' bölməsi ⤵**\n\n•━━━━━━━━•••━━━━━━━━•\n**🤖➪ /tag - 5-li tağ edər**\n**🤖➪ /etag - Emoji ilə tağ edər**\n**🤖➪ /stag - Sözlər ilə tağ edər**\n**🤖➪ /tektag - Tək-Tək tağ edər**\n**🤖➪ /usta - Usta tağ botuna aid tağ edər**\n**🤖➪ /admins - Adminləri tağ edər**\n**🤖➪ /cancel - Tağı dayandırar**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
 	            # [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/UstaTagbot?startgroup=a')],
 		     #[Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
-	             [Button.url('Kanalım ❤️', 'https://t.me/qruzdaa'),
-                      Button.url('🌐 Digər Botlar', 'https://t.me/Rahid_44')],
+	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
+                      Button.url('❤️ Kanalım','https://t.me/qruzdaa')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
@@ -138,9 +138,9 @@ async def handler(event):
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
     await event.edit(f"**📌 [@Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)-un təkliflər üçün sahiblə əlaqə saxlaya bilərsiniz...**", buttons=(
-		     [Button.url('🙇🏻 Sahib', 'https://t.me/Rahid_2003')],
-	             [Button.url('Kanalım ❤️', 'https://t.me/qruzdaa'),
-                      Button.url('Digər Botlar 🌐', 'https://t.me/Rahid_44')],
+		     [Button.url('🙇🏻 Sahib','https://t.me/Rahid_2003')],
+	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
+                      Button.url('❤️ Kanalım','https://t.me/qruzdas')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
@@ -236,7 +236,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"↯ [{random.choice(emoji)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("**Əməliyyat uğurla dayandırıldı! **")
+        await event.respond("**Əməliyyat uğurla dayandırıldı!**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -270,7 +270,7 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("**Əvvəlki mesajlara cavab verə bilərəm! **")
+        return await event.respond("**Əvvəlki mesajlara cavab verə bilərəm!**")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.respond("**Başlamaq üçün heç bir səbəb yoxdur!**")
   else:
@@ -687,7 +687,7 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("**Əvvəlki Mesajlara Cavab verə Bilərəm! **")
+        return await event.respond("**Əvvəlki Mesajlara Cavab verə Bilərəm!**")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.respond("**Başlamaq üçün heç bir səbəb yoxdur!**")
   else:
@@ -719,7 +719,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"↯ [{random.choice(usta)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("**Əməliyyat Uğurla Dayandırıldı!** ")
+        await event.respond("**Əməliyyat Uğurla Dayandırıldı!**")
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -789,7 +789,7 @@ async def handler(event):
     await event.reply('**Bot işləyir narahat olmayın**\nhttps://t.me/Rahid_2003\n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
 		     buttons=(
 	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
-	             Button.url('Kanalım ❤️','https://t.me/qruzdaa')],
+	             Button.url('❤️ Kanalım','https://t.me/qruzdaa')],
                     ),
                     link_preview=False)
 
