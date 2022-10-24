@@ -1,7 +1,7 @@
 #UserTagBot
 
 #Info 
-Bota Bir iki desdek verilecex...
+Bota bir iki dəstək veriləcək...
 
 
 
