@@ -1,47 +1,47 @@
 {
-  "name": "Telegram Mention TaggerBot",
-  "logo":"https://telegra.ph/file/dfa517fd00b6ca5f7ac9.jpg",
-  "description": "User tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
+  "name": "Telegram Tag Botu",
+  "logo":"https://te.legra.ph/file/6d467d87d4b65fc483097.jpg",
+  "description": "İstifadəçi tagger botu pulsuz üzvlərinizi etiketləyən bir botdur",
   "env": {
     "BOT_TOKEN": {
-      "description": "bot token girin.",
-      "value": "5796330315:AAFgAbSg1plscQJeVYPXF0YJxn1YzxG0MPw"
+      "description": "Botun tokeni yasın.",
+      "value": "5394785524:AAFQRdascN9MeHNpZ37nHwQaj6j53V0N1-U"
     },
     "API_ID": {
-      "description": "@otomytelegrambot dan api hash api id alınız.",
-      "value": "12494248"
+      "description": "Api-İd yazın.",
+      "value": "19485442"
     },
     "API_HASH": {
-      "description": "@otomytelegrambot dan api hash api id alınız.",
-      "value": "381a322fbd4a36c01e5eace5dfb5876f"
+      "description": "Api-Hash yazın",
+      "value": "a03fcb372b3ec4e406b5d52f84b02e53"
     },
     "BOT_NAME": {
-      "description": "botun adını girin.",
-      "value": "MEMORİES TAGGER"
+      "description": "Botun adı yazın",
+      "value": "Rahid Tag"
     },
     "BOT_USERNAME": {
-      "description": "botun adresini girin.",
-      "value": "MemoriesTaggerBot"
+      "description": "Botun tag adını @ olmadan yazın",
+      "value": "Rahid_Tag_Bot"
     },
     "BOT_ID": {
-      "description": "botun id'sini girin.",
-      "value": "5796330315"
+      "description": "Botun ID-si yazın",
+      "value": "5394785524"
     },
     "SUDO_USERS": {
-      "description": "botun sahibini girin.",
-      "value": "5420764355"
+      "description": "Öz ID-ni yazın",
+      "value": "571698989"
     },
     "SUPPORT_CHAT": {
-      "description": "botun destek grubunu girin.",
-      "value": "taggersupport"
+      "description": "Dəstək qrupun tag adı @ olmadan yazın",
+      "value": "Rahid_Support"
     },
     "OWNER_ID": {
-      "description": "botun sahibinin id'sini girin.",
-      "value": "5420764355"
+      "description": "Öz ID-ni yazın",
+      "value": "571698989"
     },
     "OWNER_USERNAME": {
-      "description": "botun sahibinin adresini girin.",
-      "value": "Benimkillerr"
+      "description": "Öz tag adını @ olmadan yazın",
+      "value": "Rahid_2003"
     }
   },
   "buildpacks": [{
