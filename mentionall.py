@@ -97,7 +97,7 @@ async def start(event):
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"**[@Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)'un Əmrlər üçün?.Bot'a daxil olub**", buttons=(
+    return await client.send_message(event.chat_id, f"**[Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)'un Əmrlər üçün?.Bot'a daxil olub**", buttons=(
                      [Button.url('💡 Bota Keç','https://t.me/Rahid_Tag_Bot?start=start')],
 	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
 		      Button.url('❤️ Kanalım','https://t.me/qruzdaa')],
@@ -137,7 +137,7 @@ async def handler(event):
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**📌 [@Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)-un təkliflər üçün sahiblə əlaqə saxlaya bilərsiniz...**", buttons=(
+    await event.edit(f"**📌 [Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)-un təkliflər üçün sahiblə əlaqə saxlaya bilərsiniz...**", buttons=(
 		     [Button.url('🙇🏻 Sahib','https://t.me/Rahid_2003')],
 	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
                       Button.url('❤️ Kanalım','https://t.me/qruzdas')],
