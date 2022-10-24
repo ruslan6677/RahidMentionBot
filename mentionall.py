@@ -83,7 +83,7 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**👋 Salam mən qrupunuzdakı bütün üzvləri tağ edə bilərəm😇\n\n💁 Ətraflı məlumat üçün '📚Əmrlər' bölməsinə daxil olun**", buttons=(
+     await event.reply(f"**👋 Salam mən qrupunuzdakı bütün üzvləri tağ edə bilərəm😇\n\n💁 Ətraflı məlumat üçün '📚 Əmrlər' bölməsinə daxil olun**", buttons=(
                      [Button.url('➕ Qrupa Əlavə Et ➕','http://t.me/Rahid_Tag_Bot?startgroup=a')],
 		   # [Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
 	            # [Button.url('Qurup🛠', 'https://t.me/Bizim_Paytaxt'),
@@ -119,7 +119,7 @@ async def handler(event):
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
 	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
-                      Button.url('❤️ Kanalım', 'https://t.me/Rahid_44')],
+                      Button.url('❤️ Kanalım', 'https://t.me/qruzdaa')],
                     ),
                     link_preview=False)
 
@@ -140,7 +140,7 @@ async def handler(event):
     await event.edit(f"**📌 [Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)-un təkliflər üçün sahiblə əlaqə saxlaya bilərsiniz...**", buttons=(
 		     [Button.url('🙇🏻 Sahib','https://t.me/Rahid_2003')],
 	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
-                      Button.url('❤️ Kanalım','https://t.me/qruzdas')],
+                      Button.url('❤️ Kanalım','https://t.me/qruzdaa')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
