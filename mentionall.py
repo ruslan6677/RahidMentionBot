@@ -88,7 +88,7 @@ async def start(event):
 		   # [Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
 	            # [Button.url('Qurup🛠', 'https://t.me/Bizim_Paytaxt'),
                     #  Button.url('💡 USTA Bots', 'https://t.me/ustabots')],
-	             [Button.inline(f"📚 Əmrlər", data="help"),
+	             [Button.inline("📚 Əmrlər", data="help")],
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
 	             [Button.url('🌐 Digər Botlar','https://t.me/Rahid_44'),
                       Button.url('❤️ Kanalım', 'http://t.me/qruzdaa')],
