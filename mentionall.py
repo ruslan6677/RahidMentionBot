@@ -83,7 +83,7 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**👋 Salam mən qrupunuzdakı bütün üzvləri tağ edə bilərəm😇\n\n💁 Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
+     await event.reply(f"**👋 Salam mən qrupunuzdakı bütün üzvləri tağ edə bilərəm😇\n\n💁 Ətraflı məlumat üçün '📚Əmrlər' bölməsinə daxil olun**", buttons=(
                      [Button.url('➕ Qrupa Əlavə Et ➕','http://t.me/Rahid_Tag_Bot?startgroup=a')],
 		   # [Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
 	            # [Button.url('Qurup🛠', 'https://t.me/Bizim_Paytaxt'),
@@ -111,7 +111,7 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**👋 Salam mən qrupunuzdakı bütün üzvləri tağ edə bilərəm😇\n\n💁 Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
+     await event.edit(f"**👋 Salam mən qrupunuzdakı bütün üzvləri tağ edə bilərəm😇\n\n💁 Ətraflı məlumat üçün '📚Əmrlər' bölməsinə daxil olun**", buttons=(
                      [Button.url('➕ Qrupa Əlavə Et ➕','http://t.me/Rahid_Tag_Bot?startgroup=a')],
 		    # [Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
 	             #[Button.url('Qurup🛠', 'https://t.me/Bizim_Paytaxt'),
@@ -126,7 +126,7 @@ async def handler(event):
 # gece kusu
 @client.on(events.callbackquery.CallbackQuery(data="help"))
 async def handler(event):	
-    await event.edit(f"** [Rahid Tag Bot](http://t.me/Rahid_Tag_Bot)-un kömək '📚 Əmrlər' bunlardır ⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**🤖➪ /tag 5-li tağ edər**\n**🤖➪ /etag - Emoji ilə tağ edər**\n**🤖➪ /stag - Sözlər ilə tağ edər**\n**🤖➪ /tektag - Tək-Tək tağ edər**\n**🤖➪ /usta - Usta tağ botuna aid tağ edər**\n**🤖➪ /admins - İdarəçiləri Tək-Tək tağ edər**\n**🤖➪ /cancel - Tağı dayandır.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
+    await event.edit(f"** [@Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)-un '📚 Əmrlər' bölməsi ⤵**\n\n•━━━━━━━━•••━━━━━━━━•\n**🤖➪ /tag 5-li tağ edər**\n**🤖➪ /etag - Emoji ilə tağ edər**\n**🤖➪ /stag - Sözlər ilə tağ edər**\n**🤖➪ /tektag - Tək-Tək tağ edər**\n**🤖➪ /usta - Usta tağ botuna aid tağ edər**\n**🤖➪ /admins - İdarəçiləri Tək-Tək tağ edər**\n**🤖➪ /cancel - Tağı dayandır.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
 	            # [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/UstaTagbot?startgroup=a')],
 		     #[Button.url('🎉 Sahib', 'https://t.me/Nehmedov')],
 	             [Button.url('Kanalım ❤️', 'https://t.me/qruzdaa'),
@@ -137,7 +137,7 @@ async def handler(event):
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**📌 [Rahid Tag Bot](http://t.me/Rahid_Tag_Bot)-un təkliflər üçün sahib'lə əlaqə saxlaya bilərsiniz...**", buttons=(
+    await event.edit(f"**📌 [@Rahid_Tag_Bot](http://t.me/Rahid_Tag_Bot)-un təkliflər üçün sahiblə əlaqə saxlaya bilərsiniz...**", buttons=(
 		     [Button.url('🙇🏻 Sahib', 'https://t.me/Rahid_2003')],
 	             [Button.url('Kanalım ❤️', 'https://t.me/qruzdaa'),
                       Button.url('Digər Botlar 🌐', 'https://t.me/Rahid_44')],
