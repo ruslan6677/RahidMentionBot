@@ -18,14 +18,14 @@ async def hg(bot: Client, msg: Message):
     for new_user in msg.new_chat_members:
         if str(new_user.id) == str(Config.BOT_ID):
             await msg.reply(
-                f'''`Salam` {msg.from_user.mention} `Məni` {msg.chat.title} `Qrupa əlavə etdiyiniz üçün təşəkkürlər⚡️` \n\n **🤖Qruplardakı userləri tag Edmə üçün Yaradıldım.\n🤖Kömək üçün /start yazmaq kifayətdir.✨**''')
+                f'''`Salam` {msg.from_user.mention} `Məni` {msg.chat.title} `Qrupa əlavə etdiyiniz üçün təşəkkürlər🙈` \n\n **🤖 Qruplardakı userləri tag etmək üçün yaradılmışam\n🤖Kömək üçün /start yazmaq kifayətdir ✓**''')
 
         elif str(new_user.id) == str(Config.OWNER_ID):
-            await msg.reply('🤖 [MEMORİES TAGGER BOT](https://t.me/MemoriesTaggerBot)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
+            await msg.reply('🤖 [@Rahid_Tag_Bot](https://t.me/Rahid_Tag_Bot)-un Sahibi qrupa qoşuldu\nxoş gəldin aramıza Sahibim🥰')
 
-            buttons = [[InlineKeyboardButton("⚡️Qrupa Əlavə ed⚡️",url="http://t.me/UstaDC_bot?startgroup=a"),
-                    InlineKeyboardButton("💻 Sahib", url="https://t.me/Cafarva_064"),
-                    InlineKeyboardButton("💡LUCİFER BOTS", url="https://t.me/LuciferProje")]]
+            buttons = [[InlineKeyboardButton("➕ Qrupa Əlavə Et ➕",url="http://t.me/Rahid_Tag_Bot?startgroup=a"),
+                    InlineKeyboardButton("🙇🏻 Sahib", url="https://t.me/Rahid_2003"),
+                    InlineKeyboardButton("🔮 Rəsmi", url="https://t.me/Rahid_44")]]
 
 
 
@@ -80,5 +80,5 @@ async def hg(bot: Client, msg: Message):
 #await msg.reply('🤖 [Usta Tagger Bot](https://t.me/Ustataggerbot)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
  
 app.start()
-print(f"Bot pyrogram ( {pyrogram.__version__} sürümü ile başlatıldı. ")
+print(f"Bot pyrogram ( {pyrogram.__version__} versiya ilə başladıldı.")
 idle()
