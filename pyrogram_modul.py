@@ -18,7 +18,7 @@ async def hg(bot: Client, msg: Message):
     for new_user in msg.new_chat_members:
         if str(new_user.id) == str(Config.BOT_ID):
             await msg.reply(
-                f'''`Salam` {msg.from_user.mention} `Məni` {msg.chat.title} `Qrupa əlavə etdiyiniz üçün təşəkkürlər🙈` \n\n **🤖 Qruplardakı userləri tag etmək üçün yaradılmışam\n🤖Kömək üçün /start yazmaq kifayətdir ✓**''')
+                f'''`Salam` {msg.from_user.mention} `məni` {msg.chat.title} `qrupuna əlavə etdiyiniz üçün təşəkkürlər🥰`**''')
 
         elif str(new_user.id) == str(Config.OWNER_ID):
             await msg.reply('🤖 [@Rahid_Tag_Bot](https://t.me/Rahid_Tag_Bot)-un Sahibi qrupa qoşuldu\nxoş gəldin aramıza Sahibim🥰')
