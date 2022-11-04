@@ -21,7 +21,7 @@ async def hg(bot: Client, msg: Message):
                 f'''`Salam` {msg.from_user.mention} `məni` {msg.chat.title} `qrupuna əlavə etdiyiniz üçün təşəkkürlər🥰`**''')
 
         elif str(new_user.id) == str(Config.OWNER_ID):
-            await msg.reply('🤖 [@Rahid_Tag_Bot](https://t.me/Rahid_Tag_Bot)-un Sahibi qrupa qoşuldu\nxoş gəldin aramıza Sahibim🥰')
+            await msg.reply('İndicə Sahibim qrupumuza qoşuldu😍\nXoş gəldin aramıza🥰')
 
             buttons = [[InlineKeyboardButton("➕ Qrupa Əlavə Et ➕",url="http://t.me/Rahid_Tag_Bot?startgroup=a"),
                     InlineKeyboardButton("🙇🏻 Sahib", url="https://t.me/Rahid_2003"),
